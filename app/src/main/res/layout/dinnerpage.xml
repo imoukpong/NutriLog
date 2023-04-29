@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/Bgcolor">
+    android:background="@color/Bgcolor"
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_margin="5dp"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
 
         <TextView
             android:id="@+id/Unit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Unit"
-            android:textSize="25sp"
-            android:textColor="@color/headerColorU">
-        </TextView>
+            android:textColor="@color/headerColorU"
+            android:textSize="25sp"></TextView>
 
         <TextView
             android:id="@+id/food"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Food"
-            android:textSize="25sp"
             android:layout_marginLeft="150dp"
-            android:textColor="@color/headerColorU">
+            android:text="Food"
+            android:textColor="@color/headerColorU"
+            android:textSize="25sp">
 
         </TextView>
 
@@ -36,124 +35,127 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="300dp"
             android:text="Nutrient"
-            android:textSize="25sp"
-            android:textColor="@color/headerColorU">
+            android:textColor="@color/headerColorU"
+            android:textSize="25sp">
 
         </TextView>
 
         <TextView
             android:id="@+id/Serving"
-            android:layout_marginTop="10dp"
-            android:layout_below="@+id/Unit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/Unit"
+            android:layout_marginTop="10dp"
             android:text="Serving"
-            android:textSize="15sp"
-            android:textColor="@color/Textcolor">
+            android:textColor="@color/Textcolor"
+            android:textSize="15sp">
 
         </TextView>
 
         <TextView
             android:id="@+id/FoodName"
-            android:layout_marginTop="10dp"
-            android:layout_below="@+id/food"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/food"
             android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
             android:text="Coffee"
-            android:textSize="15sp"
-            android:textColor="@color/Textcolor">
-        </TextView>
+            android:textColor="@color/Textcolor"
+            android:textSize="15sp"></TextView>
 
         <TextView
             android:id="@+id/Energy"
-            android:layout_marginTop="10dp"
-            android:layout_below="@+id/Nutrient"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/Nutrient"
             android:layout_marginLeft="300dp"
+            android:layout_marginTop="10dp"
             android:text="Energy:"
-            android:textSize="15sp"
-            android:textColor="@color/Textcolor">
-        </TextView>
+            android:textColor="@color/Textcolor"
+            android:textSize="15sp"></TextView>
+
         <TextView
             android:id="@+id/Protien"
-            android:layout_below="@+id/Energy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/Energy"
             android:layout_marginLeft="300dp"
             android:text="Protien:"
-            android:textSize="15sp"
-            android:textColor="@color/Textcolor">
-        </TextView>
+            android:textColor="@color/Textcolor"
+            android:textSize="15sp"></TextView>
+
         <TextView
             android:id="@+id/Fat"
-            android:layout_below="@+id/Protien"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/Protien"
             android:layout_marginLeft="300dp"
             android:text="Fat:"
-            android:textSize="15sp"
-            android:textColor="@color/Textcolor">
-        </TextView>
+            android:textColor="@color/Textcolor"
+            android:textSize="15sp"></TextView>
 
         <TextView
             android:id="@+id/Carbs"
-            android:layout_below="@+id/Fat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/Fat"
             android:layout_marginLeft="300dp"
             android:text="Carbs:"
-            android:textSize="15sp"
-            android:textColor="@color/Textcolor">
-        </TextView>
+            android:textColor="@color/Textcolor"
+            android:textSize="15sp"></TextView>
 
         <TextView
             android:id="@+id/EnergyValue"
-            android:layout_marginTop="10dp"
-            android:layout_below="@+id/Nutrient"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/Nutrient"
             android:layout_marginLeft="350dp"
+            android:layout_marginTop="10dp"
             android:text="0g"
-            android:textSize="15sp"
-            android:textColor="@color/Updatecolor">
-        </TextView>
+            android:textColor="@color/Updatecolor"
+            android:textSize="15sp"></TextView>
 
         <TextView
             android:id="@+id/ProtienValue"
-            android:layout_below="@+id/Energy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/Energy"
             android:layout_marginLeft="353dp"
             android:text="0g"
-            android:textSize="15sp"
-            android:textColor="@color/Updatecolor">
-        </TextView>
+            android:textColor="@color/Updatecolor"
+            android:textSize="15sp"></TextView>
 
         <TextView
             android:id="@+id/FatValue"
-            android:layout_below="@+id/Protien"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/Protien"
             android:layout_marginLeft="326dp"
             android:text="0g"
-            android:textSize="15sp"
-            android:textColor="@color/Updatecolor">
-        </TextView>
+            android:textColor="@color/Updatecolor"
+            android:textSize="15sp"></TextView>
 
         <TextView
             android:id="@+id/CarbsValue"
-            android:layout_below="@+id/Fat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/Fat"
             android:layout_marginLeft="343dp"
             android:text="0g"
-            android:textSize="15sp"
-            android:textColor="@color/Updatecolor">
-        </TextView>
+            android:textColor="@color/Updatecolor"
+            android:textSize="15sp"></TextView>
+
+
 
     </RelativeLayout>
+    <ImageView
+        android:id="@+id/imageView_dinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dinner"
+        android:scaleType="centerCrop"
+        />
 
 
 </LinearLayout>
+
