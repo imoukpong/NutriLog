@@ -21,6 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".BreakButton" />
+        <activity android:name=".LunchButton" />
+        <activity android:name=".DinnerButton" />
 
     </application>
 
