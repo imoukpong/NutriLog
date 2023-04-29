@@ -2,7 +2,7 @@
 
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Milestone 2 - **Team/App Name**
+# AND101 Milestone 2 - NutriLog
 
 Submitted by:
 - Jevon Harry
@@ -12,11 +12,11 @@ Submitted by:
 - Imo Ukpong
 - Jacob Tang
 
-Time spent: **X** hours spent in total
+Time spent: 4 hours spent in total
 
 ## Summary
 
-This document provides a summary of our project building process for our app, **App Name Here**
+This document provides a summary of our project building process for our app, NutriLog
 
 ## Milestone Requirements
 
